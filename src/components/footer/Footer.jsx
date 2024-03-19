@@ -6,10 +6,11 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer--image">
-        <img src={footerImage} alt="" />
+        <img className="footer--image__content" src={footerImage} alt="cook&talk" />
       </div>
+
       <div>
-        <p>
+        <p className="footer--writing">
           I am always sharing fresh, flavorful, healthy recipes that I love to
           make and eat in my real life
         </p>
