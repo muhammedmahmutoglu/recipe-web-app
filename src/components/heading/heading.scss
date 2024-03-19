@@ -1,0 +1,29 @@
+.heading {
+  font-family: Alice, sans-serif;
+  text-align: center;
+  padding: 27px 15px;
+  background-color: #ffedf3;
+
+  @media (min-width:767px) {
+    padding: 23px 87.802px ;
+  }
+
+  @media (min-width:1023px) {
+    padding: 70px 198.500px ;
+  }
+
+  &--writing {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #2b111a;
+
+    @media (min-width:767px) {
+      font-size: 45px;
+    }
+    @media (min-width:1023px) {
+        font-size: 50px;
+      }
+  }
+
+}
