@@ -9,7 +9,7 @@ const Home = () => {
       <Header />
       <Heading />
       <FoodCard
-        foodLink={"fail"}
+        foodLink={"/detail-page"}
         foodType={"Appetizer"}
         foodName={"Crispy Chipotle Chicken Tacos"}
         foodImage={
