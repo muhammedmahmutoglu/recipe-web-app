@@ -3,7 +3,7 @@ import Header from "../../components/header/Header"
 
 const Detail = () => {
   return (
-    <div>
+    <div className="detail">
       <Header />
       <Footer />
     </div>
