@@ -1,19 +1,23 @@
-
 import "./header.scss";
 import headerImage from "../../assets/img/cook & talk.svg";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
-const Header = () => {
+const Header = ({ headerLink }) => {
   return (
     <div className="header">
-      <div className="header--image">
+      <Link className="header--image" to={headerLink}>
         <img
           className="header--image__content"
           src={headerImage}
           alt="cook&talk"
         />
-      </div>
+      </Link>
     </div>
   );
 };
 
+Header.propTypes = {
+  headerLink: PropTypes.string.isRequired,
+};
 export default Header;
