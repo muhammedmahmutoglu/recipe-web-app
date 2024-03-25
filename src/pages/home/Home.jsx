@@ -6,7 +6,7 @@ import Heading from "../../components/heading/Heading";
 const Home = () => {
   return (
     <div>
-      <Header />
+      <Header headerLink={"/"} />
       <Heading />
       <FoodCard
         foodLink={"/detail-page"}
