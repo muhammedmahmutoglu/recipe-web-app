@@ -1,0 +1,57 @@
+.flavor {
+  &--header {
+    font-family: Alice, sans-serif;
+    font-size: 40px;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    color: #2b111a;
+
+    @media (min-width: 485px) {
+      font-size: 48px;
+    }
+
+    @media (min-width: 767px) {
+      font-size: 55px;
+    }
+
+    @media (min-width: 991px) {
+      font-size: 60px;
+    }
+  }
+
+  &--description {
+    margin-bottom: 30px;
+
+    @media (min-width: 991px) {
+      margin-bottom: 50px;
+    }
+  }
+  &--image {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &--title {
+    margin: 6.5px 0px 10px;
+    font-family: Alice, sans-serif;
+    font-size: 20px;
+    line-height: 1.2em;
+
+    @media (min-width: 767px) {
+      font-size: 24px;
+      margin: 21.5px 0px 10px;
+    }
+    @media (min-width:991px) {
+        margin: 40.5px 0px 10px
+    }
+  }
+
+  &--content {
+    margin-bottom: 20px;
+    strong {
+      font-weight: 600;
+    }
+  }
+}
