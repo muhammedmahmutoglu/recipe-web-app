@@ -1,13 +1,18 @@
 import FoodCard from "../../components/foodCard/FoodCard";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
-import Heading from "../../components/heading/Heading";
+// import Heading from "../../components/heading/Heading";
+
+import "./home.scss"
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Header headerLink={"/"} />
-      <Heading />
+      <div className="home__heading">
+      <h2 className="home__writing">If you’re ready to change your relationship with food for the better</h2>
+    </div>
+      {/* <Heading /> */}
       <FoodCard
         foodLink={"/detail-page"}
         foodType={"Appetizer"}

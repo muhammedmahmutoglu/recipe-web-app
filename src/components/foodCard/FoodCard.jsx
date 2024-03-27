@@ -5,13 +5,13 @@ import PropTypes from "prop-types";
 const FoodCard = ({ foodType, foodName, foodImage, foodLink }) => {
   return (
     <div className="food-card">
-      <Link to={foodLink} className="food-card--content ">
-        <div className="food-card--content__picture">
+      <Link to={foodLink} className="food-card__content ">
+        <div className="food-card__picture">
           <img src={foodImage} alt="food image" />
           <div className="shadow"></div>
         </div>
-        {<h5 className="food-card--content__type">{foodType}</h5>}
-        <h4 className="food-card--content__name">{foodName}</h4>
+        {<h5 className="food-card__type">{foodType}</h5>}
+        <h4 className="food-card__name">{foodName}</h4>
       </Link>
     </div>
   );

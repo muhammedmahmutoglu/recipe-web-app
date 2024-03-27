@@ -1,4 +1,4 @@
-import RecipeDetail from "../../components/detailCard/RecipeDetail";
+import RecipeDetail from "../../components/recipeDetail/RecipeDetail";
 import FlavorCard from "../../components/flavorCard/FlavorCard";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
@@ -10,7 +10,7 @@ const Detail = () => {
   return (
     <div className="detail">
       <Header headerLink={"/"} />
-      <div className="detail--content">
+      <div className="detail__content">
         <FlavorCard
           flavorTitle={"Pasta with tomato"}
           flavorDescription={
@@ -21,8 +21,33 @@ const Detail = () => {
           }
         />
         <div>
-          <RecipeDetail category={"Lunch"} cookTime={"30 Minutes"} nutrition={"221 kcal"} servings={"2-3"}  />
-          <Ingredients   />
+          <RecipeDetail
+            category={"Lunch"}
+            cookTime={"30 Minutes"}
+            nutrition={"221 kcal"}
+            servings={"2-3"}
+          />
+          <Ingredients
+            title={"Ingredients"}
+            title2={"Needed:"}
+            title3={"Nutrition"}
+            description={[
+              "Besan (gram flour) - 1 cup",
+              "Eno fruit salt - 1 tsp",
+              "Yogurt - 1/2 cup",
+              "Water - 1/2 cup",
+              "Salt - 1/2 tsp",
+              "Sugar - 1 tsp",
+              "Turmeric powder - 1/4 tsp",
+              "Green chilies - 2-3, finely chopped",
+              "Ginger - 1 inch, grated or finely chopped",
+              "Lemon juice - 1-2 tsp",
+              "Oil - 1 tbsp",
+              "Mustard seeds - 1 tsp",
+              "Curry leaves - a few",
+              "Water - for steaming",
+            ]}
+          />
         </div>
       </div>
       <Footer />

@@ -6,9 +6,9 @@ import PropTypes from "prop-types";
 const Header = ({ headerLink }) => {
   return (
     <div className="header">
-      <Link className="header--image" to={headerLink}>
+      <Link className="header__image" to={headerLink}>
         <img
-          className="header--image__content"
+          className="header__content"
           src={headerImage}
           alt="cook&talk"
         />

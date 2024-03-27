@@ -1,39 +1,31 @@
 import "./ingredients.scss";
 
-const Ingredients = () => {
+import PropTypes from "prop-types";
+
+const Ingredients = ({ title, title2, title3, description }) => {
   return (
     <div className="ingredients">
-      <div className="ingredients--table ingredients--box">
-        <h6 className="ingredients--table__title">Ingredients</h6>
-        <ul className="ingredients--table__content">
-          <li>Besan (gram flour) - 1 cup</li>
-          <li>Eno fruit salt - 1 tsp</li>
-          <li>Yogurt - 1/2 cup</li>
-          <li>Water - 1/2 cup</li>
-          <li>Salt - 1/2 tsp</li>
-          <li>Sugar - 1 tsp</li>
-          <li>Turmeric powder - 1/4 tsp</li>
-          <li>Green chilies - 2-3, finely chopped</li>
-          <li>Ginger - 1 inch, grated or finely chopped</li>
-          <li>Lemon juice - 1-2 tsp</li>
-          <li>Oil - 1 tbsp</li>
-          <li>Mustard seeds - 1 tsp</li>
-          <li>Curry leaves - a few</li>
-          <li>Water - for steaming</li>
-        </ul>
-      </div>
-
-      <div className="ingredients--table ingredients--box">
-        <h6 className="ingredients--table__title">Needed:</h6>
-        <ul className="ingredients--table__content">
+      {
+        <div className="ingredients__table ">
+          <h6 className="ingredients__title">{title}</h6>
+          <ul className="ingredients__content">
+            {description.map((i, k) => (
+              <li key={k}>{i}</li>
+            ))}
+          </ul>
+        </div>
+      }
+      <div className="ingredients__table ">
+        <h6 className="ingredients__title">{title2}</h6>
+        <ul className="ingredients__content">
           <li>Blender or mixer grinder</li>
           <li>Serving dish</li>
           <li>Mixing bowl</li>
         </ul>
       </div>
-      <div className="ingredients--table ingredients--box">
-        <h6 className="ingredients--table__title">Nutrition</h6>
-        <ul className="ingredients--table__content">
+      <div className="ingredients__table ">
+        <h6 className="ingredients__title">{title3}</h6>
+        <ul className="ingredients__content">
           <li>Calories: 221</li>
           <li>Carbohydrates: 43g</li>
           <li>Protein: 8g</li>
@@ -44,6 +36,13 @@ const Ingredients = () => {
       </div>
     </div>
   );
+};
+
+Ingredients.propTypes = {
+  title: PropTypes.string.isRequired,
+  title2: PropTypes.string.isRequired,
+  title3: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default Ingredients;
