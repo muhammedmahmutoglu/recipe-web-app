@@ -1,27 +1,29 @@
+import PropTypes from "prop-types";
+
+
 import "./author.scss";
-const Author = () => {
+
+const Author = ({image, content ,name}) => {
   return (
     <div className="author">
       <div className="author__image">
         <img
-          src={
-            "https://ideacdn.net/shop/bd/29/myassets/products/754/siyah-asci-bandana-fab3781-vezera_min.jpg?revision=1697143329"
-          }
+          src={image}
           alt=""
         />
       </div>
-      <span className="author__name">Jahan ablodus</span>
+      <span className="author__name">{name}</span>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque ratione
-        perferendis fugiat. Fuga illum quasi odio, est sapiente libero harum
-        magnam tempora sed, consequuntur inventore, nesciunt officia vitae
-        dolorum. Facilis fugit sit nam nemo laboriosam voluptatibus ex soluta
-        iste dolorem, repudiandae possimus blanditiis. Ipsum quo at, adipisci,
-        asperiores nisi ipsa accusamus ut quia animi quos esse aut. Harum, a
-        dolores.
+        {content}
       </p>
     </div>
   );
+};
+
+Author.propTypes = {
+  image: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
 };
 
 export default Author;
