@@ -1,0 +1,757 @@
+[
+  {
+    "id": "baked-chicken",
+    "recipe_name": "Baked Chicken",
+    "type": "Main Course",
+    "slug": "baked-chicken",
+    "image": "https://assets.epicurious.com/photos/62f16ed5fe4be95d5a460eed/1:1/w_1920,c_limit/RoastChicken_RECIPE_080420_37993.jpg",
+    "ingredients": {
+      "Chicken thighs": {
+        "quantity": "4",
+        "unit": "pieces"
+      },
+      "Olive oil": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Salt": {
+        "quantity": "1/2",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      },
+      "Oregano": {
+        "quantity": "1",
+        "unit": "teaspoon"
+      }
+    },
+    "instructions": [
+      "Rinse and pat dry the chicken thighs.",
+      "In a mixing bowl, combine olive oil, salt, black pepper, and oregano with the chicken thighs. Make sure to coat the thighs evenly with the mixture.",
+      "Line a baking tray with parchment paper and place the chicken thighs on it.",
+      "Bake in a preheated oven at 200°C for approximately 40 minutes. Bake until the thighs are golden brown and reach an internal temperature of 75°C.",
+      "Remove from the oven and serve hot. Optionally, serve with vegetable rice or salad."
+    ],
+    "service_info": {
+      "cook_time": "40 minutes",
+      "calories": "320 kcal",
+      "servings": "4 servings"
+    },
+    "description": "Baked Chicken is a healthy and delicious main dish option. Chicken thighs are coated with olive oil and spices, then baked in the oven. This recipe is perfect with its quick preparation time and delicious results. Moreover, using the baking method reduces the amount of oil used, making it a healthier option.",
+    "author": {
+      "name": "John Doe",
+      "bio": "John Doe is a passionate home cook who loves experimenting with different flavors and techniques. He enjoys sharing his recipes with others to inspire them to get creative in the kitchen.",
+      "image": "https://ideacdn.net/shop/bd/29/myassets/products/754/siyah-asci-bandana-fab3781-vezera_min.jpg?revision=1697143329"
+    },
+    "needed": [
+      "Baking tray",
+      "Parchment paper",
+      "Mixing bowl"
+    ],
+    "nutrition": {
+      "protein": "25g",
+      "carbohydrates": "0g",
+      "fat": "18g",
+      "fiber": "0g"
+    }
+  },
+  {
+    "id": "vegetable-stir-fry",
+    "recipe_name": "Vegetable Stir Fry",
+    "type": "Main Course",
+    "slug": "vegetable-stir-fry",
+    "image": "https://images.themodernproper.com/billowy-turkey/production/posts/VegetableStirFry_9.jpg?w=800&q=82&auto=format&fit=crop&dm=1703377301&s=b1a0418d7c86644de19768a8d21f29cf",
+    "ingredients": {
+      "Mixed vegetables": {
+        "quantity": "500",
+        "unit": "grams"
+      },
+      "Soy sauce": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Garlic": {
+        "quantity": "2",
+        "unit": "cloves"
+      },
+      "Ginger": {
+        "quantity": "1",
+        "unit": "teaspoon",
+        "optional": true
+      },
+      "Olive oil": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Salt": {
+        "quantity": "1/2",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      },
+      "Sesame seeds": {
+        "quantity": "1",
+        "unit": "tablespoon",
+        "optional": true
+      }
+    },
+    "instructions": [
+      "Heat olive oil in a large skillet or wok over medium-high heat.",
+      "Add minced garlic and ginger (if using), sauté until fragrant.",
+      "Add mixed vegetables to the skillet, stir fry for 5-7 minutes until tender-crisp.",
+      "Pour soy sauce over the vegetables, season with salt and black pepper. Stir well to combine.",
+      "Serve hot, garnished with sesame seeds if desired. Optionally, serve with cooked rice or noodles."
+    ],
+    "service_info": {
+      "cook_time": "15 minutes",
+      "calories": "200 kcal",
+      "servings": "4 servings"
+    },
+    "description": "Vegetable Stir Fry is a quick and easy dish packed with vibrant flavors and nutrients. A colorful mix of vegetables is stir-fried with garlic, ginger, and soy sauce until tender-crisp. This recipe is perfect for a healthy and delicious weeknight dinner.",
+    "author": {
+      "name": "David Chen",
+      "bio": "David Chen is a culinary enthusiast with a passion for creating simple yet flavorful dishes. He loves exploring different cuisines and sharing his recipes with others.",
+      "image": "https://serfoto.com.tr/sublimasyon-yetiskin-asci-sef-sapkasi-diger-tekstil-urunleri-aramakelimeleri-27394-49-O.jpg"
+    },
+    "needed": [
+      "Skillet or wok",
+      "Spatula",
+      "Knife and cutting board"
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbohydrates": "15g",
+      "fat": "10g",
+      "fiber": "6g"
+    }
+  },
+  {
+    "id": "grilled-salmon",
+    "recipe_name": "Grilled Salmon",
+    "type": "Main Course",
+    "slug": "grilled-salmon",
+    "image": "https://feelgoodfoodie.net/wp-content/uploads/2021/06/how-to-grill-salmon-8.jpg",
+    "ingredients": {
+      "Salmon fillets": {
+        "quantity": "4",
+        "unit": "pieces"
+      },
+      "Olive oil": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Lemon juice": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Garlic": {
+        "quantity": "2",
+        "unit": "cloves",
+        "optional": true
+      },
+      "Salt": {
+        "quantity": "1/2",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      }
+    },
+    "instructions": [
+      "Preheat grill to medium-high heat.",
+      "In a small bowl, mix together olive oil, lemon juice, minced garlic (if using), salt, and black pepper.",
+      "Brush the mixture over the salmon fillets, covering them completely.",
+      "Place salmon fillets on the grill and cook for 4-5 minutes on each side, or until the fish flakes easily with a fork.",
+      "Remove from grill and serve hot, garnished with fresh herbs if desired."
+    ],
+    "service_info": {
+      "cook_time": "10 minutes",
+      "calories": "250 kcal",
+      "servings": "4 servings"
+    },
+    "description": "Grilled Salmon is a delicious and healthy main course option. Salmon fillets are marinated in a flavorful mixture of olive oil, lemon juice, and spices, then grilled to perfection. This recipe is perfect for a quick and easy dinner, and it's packed with omega-3 fatty acids and protein.",
+    "author": {
+      "name": "Emily Smith",
+      "bio": "Emily Smith is a certified nutritionist and avid food blogger. She loves creating healthy and delicious recipes that everyone can enjoy.",
+      "image": "https://www.awenna.com/image/cache/catalog/Giza-Works/bayan-a%C5%9F%C3%A7%C4%B1-kepi-750x750.jpg.webp"
+    },
+    "needed": [
+      "Grill",
+      "Small bowl",
+      "Brush"
+    ],
+    "nutrition": {
+      "protein": "30g",
+      "carbohydrates": "2g",
+      "fat": "15g",
+      "fiber": "1g"
+    }
+  },
+  {
+    "id": "vegetable-stir-fry",
+    "recipe_name": "Vegetable Stir Fry",
+    "type": "Main Course",
+    "slug": "vegetable-stir-fry",
+    "image": "https://images.themodernproper.com/billowy-turkey/production/posts/VegetableStirFry_9.jpg?w=800&q=82&auto=format&fit=crop&dm=1703377301&s=b1a0418d7c86644de19768a8d21f29cf",
+    "ingredients": {
+      "Mixed vegetables": {
+        "quantity": "500",
+        "unit": "grams"
+      },
+      "Soy sauce": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Garlic": {
+        "quantity": "2",
+        "unit": "cloves"
+      },
+      "Ginger": {
+        "quantity": "1",
+        "unit": "teaspoon",
+        "optional": true
+      },
+      "Olive oil": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Salt": {
+        "quantity": "1/2",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      },
+      "Sesame seeds": {
+        "quantity": "1",
+        "unit": "tablespoon",
+        "optional": true
+      }
+    },
+    "instructions": [
+      "Heat olive oil in a large skillet or wok over medium-high heat.",
+      "Add minced garlic and ginger (if using), sauté until fragrant.",
+      "Add mixed vegetables to the skillet, stir fry for 5-7 minutes until tender-crisp.",
+      "Pour soy sauce over the vegetables, season with salt and black pepper. Stir well to combine.",
+      "Serve hot, garnished with sesame seeds if desired. Optionally, serve with cooked rice or noodles."
+    ],
+    "service_info": {
+      "cook_time": "15 minutes",
+      "calories": "200 kcal",
+      "servings": "4 servings"
+    },
+    "description": "Vegetable Stir Fry is a quick and easy dish packed with vibrant flavors and nutrients. A colorful mix of vegetables is stir-fried with garlic, ginger, and soy sauce until tender-crisp. This recipe is perfect for a healthy and delicious weeknight dinner.",
+    "author": {
+      "name": "David Chen",
+      "bio": "David Chen is a culinary enthusiast with a passion for creating simple yet flavorful dishes. He loves exploring different cuisines and sharing his recipes with others.",
+      "image": "https://serfoto.com.tr/sublimasyon-yetiskin-asci-sef-sapkasi-diger-tekstil-urunleri-aramakelimeleri-27394-49-O.jpg"
+    },
+    "needed": [
+      "Skillet or wok",
+      "Spatula",
+      "Knife and cutting board"
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbohydrates": "15g",
+      "fat": "10g",
+      "fiber": "6g"
+    }
+  },
+  {
+    "id": "chicken-alfredo-pasta",
+    "recipe_name": "Chicken Alfredo Pasta",
+    "type": "Main Course",
+    "slug": "chicken-alfredo-pasta",
+    "image": "https://thecozycook.com/wp-content/uploads/2022/08/Chicken-Alfredo-Pasta-1.jpg",
+    "ingredients": {
+      "Fettuccine pasta": {
+        "quantity": "250",
+        "unit": "grams"
+      },
+      "Chicken breast": {
+        "quantity": "2",
+        "unit": "pieces"
+      },
+      "Heavy cream": {
+        "quantity": "1",
+        "unit": "cup"
+      },
+      "Parmesan cheese": {
+        "quantity": "1/2",
+        "unit": "cup"
+      },
+      "Garlic": {
+        "quantity": "2",
+        "unit": "cloves"
+      },
+      "Butter": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Salt": {
+        "quantity": "1/2",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      }
+    },
+    "instructions": [
+      "Cook fettuccine pasta according to package instructions. Drain and set aside.",
+      "Season chicken breasts with salt and black pepper.",
+      "In a skillet, melt butter over medium heat. Add minced garlic and cook until fragrant.",
+      "Add chicken breasts to the skillet, cook until browned and no longer pink in the center. Remove from skillet and slice thinly.",
+      "In the same skillet, pour heavy cream and bring to a simmer. Stir in Parmesan cheese until melted and creamy.",
+      "Add cooked pasta and sliced chicken to the skillet, toss until well coated with the sauce.",
+      "Serve hot, garnished with additional Parmesan cheese and chopped parsley if desired."
+    ],
+    "service_info": {
+      "cook_time": "25 minutes",
+      "calories": "600 kcal",
+      "servings": "2 servings"
+    },
+    "description": "Chicken Alfredo Pasta is a classic Italian dish that is creamy, rich, and satisfying. Tender chicken breast slices are served over fettuccine pasta and coated in a luxurious Alfredo sauce made with heavy cream, Parmesan cheese, and garlic. This recipe is perfect for a comforting and indulgent dinner.",
+    "author": {
+      "name": "Sophia Johnson",
+      "bio": "Sophia Johnson is a chef and food writer with a passion for Italian cuisine. She enjoys creating delicious and comforting dishes that bring people together.",
+      "image": "https://static.ticimax.cloud/42177/uploads/urunresimleri/buyuk/siyah-file-kuyruklu-asci-bone-unisex-04e-a9.jpg"
+    },
+    "needed": [
+      "Skillet",
+      "Pot",
+      "Colander",
+      "Knife and cutting board"
+    ],
+    "nutrition": {
+      "protein": "40g",
+      "carbohydrates": "30g",
+      "fat": "25g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "caprese-salad",
+    "recipe_name": "Caprese Salad",
+    "type": "Appetizer",
+    "slug": "caprese-salad",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2022/05/Caprese-salad-8f218a3.png?quality=90&webp=true&resize=375,341",
+    "ingredients": {
+      "Tomatoes": {
+        "quantity": "2",
+        "unit": "medium"
+      },
+      "Fresh mozzarella cheese": {
+        "quantity": "200",
+        "unit": "grams"
+      },
+      "Fresh basil leaves": {
+        "quantity": "1/2",
+        "unit": "cup"
+      },
+      "Balsamic vinegar": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Extra virgin olive oil": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Salt": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/8",
+        "unit": "teaspoon"
+      },
+      "Optional: Balsamic glaze": {
+        "quantity": "1",
+        "unit": "tablespoon",
+        "optional": true
+      }
+    },
+    "instructions": [
+      "Slice tomatoes and fresh mozzarella cheese into 1/4-inch thick slices.",
+      "Arrange tomato slices, mozzarella slices, and fresh basil leaves on a serving platter in an alternating pattern.",
+      "Drizzle balsamic vinegar and extra virgin olive oil over the salad.",
+      "Season with salt and black pepper.",
+      "Serve immediately, optionally drizzle with balsamic glaze for extra flavor."
+    ],
+    "service_info": {
+      "prep_time": "10 minutes",
+      "calories": "250 kcal",
+      "servings": "2 servings"
+    },
+    "description": "Caprese Salad is a classic Italian salad featuring fresh tomatoes, mozzarella cheese, and basil leaves. It's a simple yet elegant dish that showcases the flavors of summer. Drizzled with balsamic vinegar and extra virgin olive oil, this salad is light, refreshing, and perfect for any occasion.",
+    "author": {
+      "name": "Giulia Bianchi",
+      "bio": "Giulia Bianchi is a culinary enthusiast and food photographer based in Italy. She loves creating beautiful and delicious dishes inspired by the flavors of her homeland.",
+      "image": "https://cdn.dsmcdn.com/mnresize/500/-/ty1152/product/media/images/prod/SPM/PIM/20240130/09/9c1fda97-94be-34f5-a5a0-b24e5b4fb9cc/1_org.jpg"
+    },
+    "needed": [
+      "Serving platter",
+      "Knife"
+    ],
+    "nutrition": {
+      "protein": "15g",
+      "carbohydrates": "10g",
+      "fat": "18g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "grilled-salmon",
+    "recipe_name": "Grilled Salmon",
+    "type": "Main Course",
+    "slug": "grilled-salmon",
+    "image": "https://feelgoodfoodie.net/wp-content/uploads/2021/06/how-to-grill-salmon-8.jpg",
+    "ingredients": {
+      "Salmon fillets": {
+        "quantity": "4",
+        "unit": "pieces"
+      },
+      "Olive oil": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Lemon juice": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Garlic": {
+        "quantity": "2",
+        "unit": "cloves",
+        "optional": true
+      },
+      "Salt": {
+        "quantity": "1/2",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      }
+    },
+    "instructions": [
+      "Preheat grill to medium-high heat.",
+      "In a small bowl, mix together olive oil, lemon juice, minced garlic (if using), salt, and black pepper.",
+      "Brush the mixture over the salmon fillets, covering them completely.",
+      "Place salmon fillets on the grill and cook for 4-5 minutes on each side, or until the fish flakes easily with a fork.",
+      "Remove from grill and serve hot, garnished with fresh herbs if desired."
+    ],
+    "service_info": {
+      "cook_time": "10 minutes",
+      "calories": "250 kcal",
+      "servings": "4 servings"
+    },
+    "description": "Grilled Salmon is a delicious and healthy main course option. Salmon fillets are marinated in a flavorful mixture of olive oil, lemon juice, and spices, then grilled to perfection. This recipe is perfect for a quick and easy dinner, and it's packed with omega-3 fatty acids and protein.",
+    "author": {
+      "name": "Emily Smith",
+      "bio": "Emily Smith is a certified nutritionist and avid food blogger. She loves creating healthy and delicious recipes that everyone can enjoy.",
+      "image": "https://www.awenna.com/image/cache/catalog/Giza-Works/bayan-a%C5%9F%C3%A7%C4%B1-kepi-750x750.jpg.webp"
+    },
+    "needed": [
+      "Grill",
+      "Small bowl",
+      "Brush"
+    ],
+    "nutrition": {
+      "protein": "30g",
+      "carbohydrates": "2g",
+      "fat": "15g",
+      "fiber": "1g"
+    }
+  },
+  {
+    "id": "vegetable-stir-fry",
+    "recipe_name": "Vegetable Stir Fry",
+    "type": "Main Course",
+    "slug": "vegetable-stir-fry",
+    "image": "https://images.themodernproper.com/billowy-turkey/production/posts/VegetableStirFry_9.jpg?w=800&q=82&auto=format&fit=crop&dm=1703377301&s=b1a0418d7c86644de19768a8d21f29cf",
+    "ingredients": {
+      "Mixed vegetables": {
+        "quantity": "500",
+        "unit": "grams"
+      },
+      "Soy sauce": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Garlic": {
+        "quantity": "2",
+        "unit": "cloves"
+      },
+      "Ginger": {
+        "quantity": "1",
+        "unit": "teaspoon",
+        "optional": true
+      },
+      "Olive oil": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Salt": {
+        "quantity": "1/2",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      },
+      "Sesame seeds": {
+        "quantity": "1",
+        "unit": "tablespoon",
+        "optional": true
+      }
+    },
+    "instructions": [
+      "Heat olive oil in a large skillet or wok over medium-high heat.",
+      "Add minced garlic and ginger (if using), sauté until fragrant.",
+      "Add mixed vegetables to the skillet, stir fry for 5-7 minutes until tender-crisp.",
+      "Pour soy sauce over the vegetables, season with salt and black pepper. Stir well to combine.",
+      "Serve hot, garnished with sesame seeds if desired. Optionally, serve with cooked rice or noodles."
+    ],
+    "service_info": {
+      "cook_time": "15 minutes",
+      "calories": "200 kcal",
+      "servings": "4 servings"
+    },
+    "description": "Vegetable Stir Fry is a quick and easy dish packed with vibrant flavors and nutrients. A colorful mix of vegetables is stir-fried with garlic, ginger, and soy sauce until tender-crisp. This recipe is perfect for a healthy and delicious weeknight dinner.",
+    "author": {
+      "name": "David Chen",
+      "bio": "David Chen is a culinary enthusiast with a passion for creating simple yet flavorful dishes. He loves exploring different cuisines and sharing his recipes with others.",
+      "image": "https://serfoto.com.tr/sublimasyon-yetiskin-asci-sef-sapkasi-diger-tekstil-urunleri-aramakelimeleri-27394-49-O.jpg"
+    },
+    "needed": [
+      "Skillet or wok",
+      "Spatula",
+      "Knife and cutting board"
+    ],
+    "nutrition": {
+      "protein": "5g",
+      "carbohydrates": "15g",
+      "fat": "10g",
+      "fiber": "6g"
+    }
+  },
+  {
+    "id": "chicken-alfredo-pasta",
+    "recipe_name": "Chicken Alfredo Pasta",
+    "type": "Main Course",
+    "slug": "chicken-alfredo-pasta",
+    "image": "https://thecozycook.com/wp-content/uploads/2022/08/Chicken-Alfredo-Pasta-1.jpg",
+    "ingredients": {
+      "Fettuccine pasta": {
+        "quantity": "250",
+        "unit": "grams"
+      },
+      "Chicken breast": {
+        "quantity": "2",
+        "unit": "pieces"
+      },
+      "Heavy cream": {
+        "quantity": "1",
+        "unit": "cup"
+      },
+      "Parmesan cheese": {
+        "quantity": "1/2",
+        "unit": "cup"
+      },
+      "Garlic": {
+        "quantity": "2",
+        "unit": "cloves"
+      },
+      "Butter": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Salt": {
+        "quantity": "1/2",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      }
+    },
+    "instructions": [
+      "Cook fettuccine pasta according to package instructions. Drain and set aside.",
+      "Season chicken breasts with salt and black pepper.",
+      "In a skillet, melt butter over medium heat. Add minced garlic and cook until fragrant.",
+      "Add chicken breasts to the skillet, cook until browned and no longer pink in the center. Remove from skillet and slice thinly.",
+      "In the same skillet, pour heavy cream and bring to a simmer. Stir in Parmesan cheese until melted and creamy.",
+      "Add cooked pasta and sliced chicken to the skillet, toss until well coated with the sauce.",
+      "Serve hot, garnished with additional Parmesan cheese and chopped parsley if desired."
+    ],
+    "service_info": {
+      "cook_time": "25 minutes",
+      "calories": "600 kcal",
+      "servings": "2 servings"
+    },
+    "description": "Chicken Alfredo Pasta is a classic Italian dish that is creamy, rich, and satisfying. Tender chicken breast slices are served over fettuccine pasta and coated in a luxurious Alfredo sauce made with heavy cream, Parmesan cheese, and garlic. This recipe is perfect for a comforting and indulgent dinner.",
+    "author": {
+      "name": "Sophia Johnson",
+      "bio": "Sophia Johnson is a chef and food writer with a passion for Italian cuisine. She enjoys creating delicious and comforting dishes that bring people together.",
+      "image": "https://static.ticimax.cloud/42177/uploads/urunresimleri/buyuk/siyah-file-kuyruklu-asci-bone-unisex-04e-a9.jpg"
+    },
+    "needed": [
+      "Skillet",
+      "Pot",
+      "Colander",
+      "Knife and cutting board"
+    ],
+    "nutrition": {
+      "protein": "40g",
+      "carbohydrates": "30g",
+      "fat": "25g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "caprese-salad",
+    "recipe_name": "Caprese Salad",
+    "type": "Appetizer",
+    "slug": "caprese-salad",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2022/05/Caprese-salad-8f218a3.png?quality=90&webp=true&resize=375,341",
+    "ingredients": {
+      "Tomatoes": {
+        "quantity": "2",
+        "unit": "medium"
+      },
+      "Fresh mozzarella cheese": {
+        "quantity": "200",
+        "unit": "grams"
+      },
+      "Fresh basil leaves": {
+        "quantity": "1/2",
+        "unit": "cup"
+      },
+      "Balsamic vinegar": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Extra virgin olive oil": {
+        "quantity": "2",
+        "unit": "tablespoons"
+      },
+      "Salt": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      },
+      "Black pepper": {
+        "quantity": "1/8",
+        "unit": "teaspoon"
+      },
+      "Optional: Balsamic glaze": {
+        "quantity": "1",
+        "unit": "tablespoon",
+        "optional": true
+      }
+    },
+    "instructions": [
+      "Slice tomatoes and fresh mozzarella cheese into 1/4-inch thick slices.",
+      "Arrange tomato slices, mozzarella slices, and fresh basil leaves on a serving platter in an alternating pattern.",
+      "Drizzle balsamic vinegar and extra virgin olive oil over the salad.",
+      "Season with salt and black pepper.",
+      "Serve immediately, optionally drizzle with balsamic glaze for extra flavor."
+    ],
+    "service_info": {
+      "prep_time": "10 minutes",
+      "calories": "250 kcal",
+      "servings": "2 servings"
+    },
+    "description": "Caprese Salad is a classic Italian salad featuring fresh tomatoes, mozzarella cheese, and basil leaves. It's a simple yet elegant dish that showcases the flavors of summer. Drizzled with balsamic vinegar and extra virgin olive oil, this salad is light, refreshing, and perfect for any occasion.",
+    "author": {
+      "name": "Giulia Bianchi",
+      "bio": "Giulia Bianchi is a culinary enthusiast and food photographer based in Italy. She loves creating beautiful and delicious dishes inspired by the flavors of her homeland.",
+      "image": "https://cdn.dsmcdn.com/mnresize/500/-/ty1152/product/media/images/prod/SPM/PIM/20240130/09/9c1fda97-94be-34f5-a5a0-b24e5b4fb9cc/1_org.jpg"
+    },
+    "needed": [
+      "Serving platter",
+      "Knife"
+    ],
+    "nutrition": {
+      "protein": "15g",
+      "carbohydrates": "10g",
+      "fat": "18g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "french-toast",
+    "recipe_name": "French Toast",
+    "type": "Breakfast",
+    "slug": "french-toast",
+    "image": "https://sugarspunrun.com/wp-content/uploads/2023/08/French-Toast-recipe-4-of-5.jpg",
+    "ingredients": {
+      "Bread slices": {
+        "quantity": "8",
+        "unit": ""
+      },
+      "Eggs": {
+        "quantity": "4",
+        "unit": ""
+      },
+      "Milk": {
+        "quantity": "1",
+        "unit": "cup"
+      },
+      "Vanilla extract": {
+        "quantity": "1",
+        "unit": "teaspoon"
+      },
+      "Ground cinnamon": {
+        "quantity": "1/2",
+        "unit": "teaspoon"
+      },
+      "Salt": {
+        "quantity": "1/4",
+        "unit": "teaspoon"
+      },
+      "Butter or oil": {
+        "quantity": "",
+        "unit": "for cooking"
+      }
+    },
+    "instructions": [
+      "In a shallow dish, whisk together eggs, milk, vanilla extract, ground cinnamon, and salt.",
+      "Heat a non-stick skillet or griddle over medium heat. Add butter or oil for cooking.",
+      "Dip each bread slice into the egg mixture, allowing it to soak for a few seconds on each side.",
+      "Place the soaked bread slices onto the skillet or griddle. Cook until golden brown on both sides, flipping once.",
+      "Repeat with remaining bread slices, adding more butter or oil to the skillet as needed.",
+      "Serve the French toast warm with maple syrup, fresh fruit, or powdered sugar. Enjoy!"
+    ],
+    "service_info": {
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes",
+      "calories": "200 kcal per serving",
+      "servings": "4 servings"
+    },
+    "description": "French Toast is a classic breakfast dish that's perfect for weekend brunches or lazy mornings. Thick slices of bread are soaked in a sweet and custardy egg mixture, then cooked until golden brown and crispy on the outside, and soft and fluffy on the inside. Whether topped with maple syrup, fresh fruit, or powdered sugar, French toast is always a delicious treat.",
+    "author": {
+      "name": "Daniel Brown",
+      "bio": "Daniel Brown is a breakfast enthusiast and home cook who loves making French toast for his family. He enjoys sharing his favorite breakfast recipes and tips with others.",
+      "image": "https://www.onluksanayi.com/application/uploads/asci-sapkasi-siyah-1-1.webp"
+    },
+    "needed": [
+      "Non-stick skillet or griddle",
+      "Shallow dish",
+      "Whisk",
+      "Spatula"
+    ],
+    "nutrition": {
+      "protein": "8g",
+      "carbohydrates": "20g",
+      "fat": "10g",
+      "fiber": "1g"
+    }
+  }
+]

@@ -1,26 +1,32 @@
 import FoodCard from "../../components/foodCard/FoodCard";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
-// import Heading from "../../components/heading/Heading";
+import recipies from "../../mock/recipe.json";
 
-import "./home.scss"
+
+import "./home.scss";
 
 const Home = () => {
   return (
     <div className="home">
       <Header headerLink={"/"} />
       <div className="home__heading">
-      <h2 className="home__writing">If you’re ready to change your relationship with food for the better</h2>
-    </div>
-      {/* <Heading /> */}
-      <FoodCard
-        foodLink={"/detail-page"}
-        foodType={"Appetizer"}
-        foodName={"Crispy Chipotle Chicken Tacos"}
-        foodImage={
-          "https://assets.website-files.com/6455d3a136a229776428bcfb/645f77a9c7fb9e94b18e107d_re-03.jpg"
-        }
-      />
+        <h2 className="home__writing">
+          If you’re ready to change your relationship with food for the better
+        </h2>
+      </div>
+      <div className="home__food-card">
+      {recipies.map((item) => (
+        <FoodCard
+          key={item}
+          foodLink={`/detail-page/${item.slug}`}
+          foodType={item.type}
+          foodName={item.recipe_name}
+          foodImage={item.image}
+        />
+      ))}
+      </div>
+
       <Footer />
     </div>
   );
