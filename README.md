@@ -1,8 +1,32 @@
-# React + Vite
+# recipe-web-app
+## Proje kurulumu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki kodları sırasıyla terminal aracılığıyla çalıştırın.
 
-Currently, two official plugins are available:
+### Projeyi klonlamak çin
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+git clone https://github.com/muhammedmahmutoglu/recipe-web-app.git
+```
+
+### İndirilen proje dosyasına geçiş yapmak için
+
+```
+cd .\recipe-web-app
+```
+
+### Bağımlılıkları indirmek için
+
+```
+npm install
+```
+
+### Localhost üzerinde çalıştırmak için
+
+```
+npm run dev
+```
+
+çalıştırılan proje _http://localhost:5173/ URL'i altından servis edilecektir.
+
+```
