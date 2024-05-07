@@ -28,5 +28,3 @@ npm run dev
 ```
 
 çalıştırılan proje _http://localhost:5173/ URL'i altından servis edilecektir.
-
-```
