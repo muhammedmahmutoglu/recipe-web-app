@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "svgr": "npx @svgr/cli --out-dir src/components/icons --ext jsx src/assets/icons"
   },
   "dependencies": {
     "react": "^18.2.0",
