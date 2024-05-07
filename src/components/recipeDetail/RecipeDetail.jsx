@@ -1,4 +1,4 @@
-import { ChefHat, Dinner, HotFood, HotPot } from "../../../dist";
+import { ChefHat, Dinner, HotFood, HotPot } from "../icons";
 import "./recipe-detail.scss";
 
 import PropTypes from "prop-types";

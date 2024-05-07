@@ -1,5 +1,6 @@
 import "./header.scss";
 import headerImage from "../../assets/img/cook & talk.svg";
+// import {Cooktalk} from "../icons"
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
@@ -10,7 +11,7 @@ const Header = ({ headerLink }) => {
         <img
           className="header__content"
           src={headerImage}
-          alt="cook&talk"
+          alt="cook talk"
         />
       </Link>
     </div>

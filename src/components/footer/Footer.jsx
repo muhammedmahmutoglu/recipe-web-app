@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Pinterest, Twitter, Youtube } from "../../../dist";
+import { Facebook, Instagram, Pinterest, Twitter, Youtube } from "../icons";
 import footerImage from "../../assets/img/cook & talk-light.svg";
 import "./footer.scss";
 
